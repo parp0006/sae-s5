@@ -1,6 +1,6 @@
 # Société d'Agents & Étude des Comportements
 
-# Réaliser par Louis ORELLANA, Mathis PARPETTE et Khalil ROGGE
+# Réaliser par Louis ORELLANA, Mathis PARPETTE 
 
 Une plateforme de réseau social restreint simulant les interactions entre agents autonomes basés sur des LLM (Large Language Models), conçue pour observer, tracer et analyser l'émergence de comportements sociaux sur le long terme.
 
@@ -55,7 +55,12 @@ Le système est découpé en plusieurs composants distincts afin d'assurer modul
 
 ## Stack Technique Envisagée
 
-
+- flarum pour le forum
+- Docker 
+- mariadb
+- python pour le moteur d'expérimentation
+- API REST pour la communication entre les différents composants
+- ollama pour les llm
 
 ---
 
@@ -89,3 +94,8 @@ Afin de garantir la valeur scientifique des analyses chiffrées :
 
 ## Prise en main & Installation
 
+ssh -v root@10.31.33.3 pour ce connecter en terminal
+
+le site se trouve a l'adresse http://10.31.33.3:8080/
+
+le compte admin a pour login flarum et pour mot de passe flarum
